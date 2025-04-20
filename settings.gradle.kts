@@ -13,8 +13,8 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "MVVM-Clean-Kotlin-Android-Architecture"
-include ':app'
-include ':domain'
-include ':data'
-include ':cache'
-include ':remote'
+include (":app")
+include (":domain")
+include (":data")
+include (":cache")
+include (":remote")
