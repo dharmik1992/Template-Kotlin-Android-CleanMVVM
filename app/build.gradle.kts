@@ -1,7 +1,7 @@
 plugins {
     alias(libs.plugins.com.android.application)
     alias(libs.plugins.org.jetbrains.kotlin.android)
-    alias(libs.plugins.org.jetbrains.kotlin.kapt)
+    alias(libs.plugins.ksp)
     alias(libs.plugins.hilt)
     alias(libs.plugins.compose.compiler)
 }
@@ -85,8 +85,8 @@ dependencies {
     // hilt
     implementation(libs.hilt.android)
     implementation(libs.hilt.worker)
-    kapt(libs.hilt.android.compiler )
-    kapt(libs.hilt.androidx.compiler)
+    ksp(libs.hilt.android.compiler )
+    ksp(libs.hilt.androidx.compiler)
     implementation(libs.hilt.navigation)
 
     // Retrofit
@@ -108,7 +108,7 @@ dependencies {
 
     // ROOM DB
     implementation(libs.room.runtime)
-    kapt(libs.room.compiler)
+    ksp(libs.room.compiler)
     implementation(libs.room.ktx)
     implementation(libs.androidx.room.paging)
 
@@ -131,7 +131,4 @@ dependencies {
 
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
-}
-kapt {
-    correctErrorTypes = true
 }
