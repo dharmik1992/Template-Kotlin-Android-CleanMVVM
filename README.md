@@ -5,6 +5,10 @@ This template provides a clean, maintainable, and testable foundation for Androi
 
 Ideal for developers who want a robust starting point to build production-ready apps with a well-organized codebase.
 
+> **Note:** This repository is marked as a [GitHub Template Repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-template-repository).  
+> You can use the **"Use this template"** button to generate a new repository with this exact structure and setup — perfect for starting your own Android projects quickly.
+
+
 ---
 
 ## ✨ Features
@@ -54,7 +58,9 @@ This template follows the principles of [Clean Architecture](https://blog.cleanc
 
 To use this template for your Android project:
 
-1. Clone or fork this repository  
+1. Click the **Use this template** button on GitHub or clone this repository:  
+   ```bash
+   git clone https://github.com/dharmik1992/Template-Kotlin-Android-CleanMVVM.git
 2. Customize the modules, package names, and dependencies as needed  
 3. Start building features following the clean architecture pattern outlined  
 4. Refer to the folder/module structure to keep your code organized and maintainable  
